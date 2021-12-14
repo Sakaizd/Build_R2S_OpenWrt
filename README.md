@@ -8,6 +8,10 @@ Build OpenWrt for R2S using GitHub Actions.
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+## Status
+
+![Build_R2S_OpenWRT](https://github.com/Sakaizd/Build_R2S_OpenWRT/actions/workflows/immortalwrt.yml/badge.svg)
+
 ## Usage
 
 Download from [Release](https://github.com/Sakaizd/Build_R2S_OpenWRT/releases).
