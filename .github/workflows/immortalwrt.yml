@@ -10,6 +10,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   INIT_SH: /scripts/immortalFeeds.sh
+  CLASH_BINARY_PLATFORM: armv8
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
@@ -61,7 +62,7 @@ jobs:
         [ -e files ] && mv files openwrt/files
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         cd openwrt
-        $GITHUB_WORKSPACE/scripts/preset-clash-core.sh amd64
+        $GITHUB_WORKSPACE/scripts/preset-clash-core.sh $CLASH_BINARY_PLATFORM
         
     - name: Download package
       id: package
