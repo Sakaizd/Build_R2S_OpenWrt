@@ -10,7 +10,7 @@ Build OpenWrt for R2S using GitHub Actions.
 
 ## Usage
 
-Download from [Release](https://github.com/Sakaizd/Actions-LEDE/releases).
+Download from [Release](https://github.com/Sakaizd/Build_R2S_OpenWRT/releases).
 
 
 ## Acknowledgments
