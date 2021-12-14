@@ -61,7 +61,6 @@ jobs:
         [ -e files ] && mv files openwrt/files
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         cd openwrt
-        $GITHUB_WORKSPACE/scripts/ModifyDefaultIP.sh
         $GITHUB_WORKSPACE/scripts/preset-clash-core.sh amd64
         
     - name: Download package
