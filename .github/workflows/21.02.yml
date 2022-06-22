@@ -24,7 +24,7 @@ env:
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 21.02.config
-  INIT_SH: /scripts/immortalFeeds.sh
+  CLASH_BINARY_PLATFORM: armv8
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
