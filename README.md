@@ -10,7 +10,7 @@ Build OpenWrt for R2S using GitHub Actions.
 
 ## Status
 
-![Build_R2S_OpenWRT](https://github.com/Sakaizd/Build_R2S_OpenWRT/actions/workflows/Build_ImmortalWrt.yml/badge.svg)
+[![Build openwrt-21.02](https://github.com/Sakaizd/Build_R2S_OpenWrt/actions/workflows/21.02.yml/badge.svg?branch=master&event=workflow_run)](https://github.com/Sakaizd/Build_R2S_OpenWrt/actions/workflows/21.02.yml)
 
 ## Usage
 
